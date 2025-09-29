@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+header .tagline {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+section h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+section img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+}
+#skills li {
+    background: #ecf0f1;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #2c3e50;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Resume Button */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #2c3e50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #34495e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #2c3e50;
+    color: white;
+}
